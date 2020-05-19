@@ -1,0 +1,12 @@
+name: base
+dependencies:
+  - python=3.6
+  - xarray
+  - dask
+  - numpy
+  - netCDF4
+  - scipy
+  - pandas
+  - matplotlib
+  - cartopy
+  
