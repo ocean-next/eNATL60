@@ -1,8 +1,10 @@
-name: base
+name: meso-AVISO
 dependencies:
   - python=3.6
   - xarray
+  - zarr
   - dask
+  - dask-jobqueue
   - numpy
   - netCDF4
   - scipy
