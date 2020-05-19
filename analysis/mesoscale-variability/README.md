@@ -4,7 +4,7 @@
 
 ### Authors
 
-Aurélie Albert ([Ocean Next](https://ocean-next.fr), Julien LeSommer ([MEOM-IGE](https://github.com/meom-group.io))
+Aurélie Albert ([Ocean Next](https://ocean-next.fr)), Julien LeSommer ([MEOM-IGE](https://github.com/meom-group.io))
 
 ### Date
 
