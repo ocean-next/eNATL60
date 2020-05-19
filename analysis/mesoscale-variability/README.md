@@ -4,9 +4,11 @@
 
 ### Authors
 
+Aurélie Albert ([Ocean Next](https://ocean-next.fr), Julien LeSommer ([MEOM-IGE](https://github.com/meom-group.io))
+
 ### Date
 
-2019, November
+25/11/2019
 
 ### Detailed description
 
