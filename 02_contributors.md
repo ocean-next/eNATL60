@@ -1,4 +1,4 @@
-## The communauty behind eNATL60
+## The community behind eNATL60
 
 ### People involved in the design of eNATL60
  - Laurent Brodeau, Ocean Next, Grenoble, France
@@ -6,7 +6,7 @@
  - Julien LeSommer, MEOM-IGE, Grenoble, France
  - Bernard Barnier, Thierry Penduff, Emmanuel Cosme, Aurélie Albert, MEOM-IGE, Grenoble, France
  - Brian Arbic, University of Michigan, MI, USA
- - Jerome Chanut, Mercator Ocean Int., Toulouse, France
+ - Jérôme Chanut, Mercator Ocean Int., Toulouse, France
  - Florent Lyard, LEGOS, Toulouse, France
  
 ### People involved in the production of the eNATL60 twin-experiment
