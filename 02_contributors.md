@@ -1,13 +1,13 @@
-## The people that did eNATL60
+## The people around eNATL60
 
 
 ### People involved in the design of eNATL60
  - Laurent Brodeau, Ocean Next
  - Jean-Marc Molines, MEOM-IGE
  - Julien LeSommer, MEOM-IGE
- - Bernard, Thierry, Manu 
+ - Bernard Barnier, Thierry Penduff, Emmanuel Cosme, MEOM-IGE 
  - Jerome Chanut, Mercator Ocean
- - Brian Arbic
+ - Brian Arbic, UMICH
  
 ### People that produced eNATL60
  - Laurent Brodeau, Ocean Next
