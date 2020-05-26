@@ -1,0 +1,16 @@
+name: mesovar
+dependencies:
+  - python=3.6
+  - xarray
+  - zarr
+  - dask
+  - dask_kubernetes
+  - intake
+  - numpy
+  - netCDF4
+  - scipy
+  - pandas
+  - matplotlib
+  - cartopy
+  - pip
+ 
