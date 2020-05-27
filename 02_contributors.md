@@ -6,6 +6,7 @@
  - Julien LeSommer, MEOM-IGE, Grenoble, France
  - Bernard Barnier, Thierry Penduff, Emmanuel Cosme, Aurélie Albert, MEOM-IGE, Grenoble, France
  - Brian Arbic, University of Michigan, MI, USA
+ - Aurélien Ponte, IFREMER, Brest, France
  - Jérôme Chanut, Mercator Ocean Int., Toulouse, France
  - Florent Lyard, LEGOS, Toulouse, France
  
