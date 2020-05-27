@@ -7,7 +7,7 @@
  - Bernard Barnier, Thierry Penduff, Emmanuel Cosme, Aurélie Albert, MEOM-IGE, Grenoble, France
  - Brian Arbic, University of Michigan, MI, USA
  - Aurélien Ponte, IFREMER, Brest, France
- - Jérôme Chanut, Mercator Ocean Int., Toulouse, France
+ - Jérôme Chanut, Romain Bourdalle-Badie, Mercator Ocean Int., Toulouse, France
  - Florent Lyard, LEGOS, Toulouse, France
  
 ### People involved in the production of the eNATL60 twin-experiment
@@ -16,6 +16,16 @@
  - David Vincente and support team, Barcelona Supercomputer Center, Spain
  - CINES (HPC center), Montpelier, France
  - Aurélie Albert, Ocean Next
+
+### People involved in the early assesment of the eNATL60 simulations
+ - Josef Ansong
+ - Aurélien Ponte
+ - Xialong Iu
+ 
+
+
+
+*somewhere else:*
 
 ### eNATL60 twin-experiment data explorers
  - Aurélie Albert, Ocean Next
