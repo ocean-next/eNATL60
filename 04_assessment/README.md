@@ -3,7 +3,7 @@
   - description of the domain, grid, bathymetry, etc ... 
   - hydrographic comparison with ARGO and OVIDE
   - large scale circulation
-  - [mesoscale variability](https://github.com/ocean-next/eNATL60/blob/master/analysis/mesoscale-variability/README.md)
+  - [mesoscale variability](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/mesoscale-variability/README.md)
   - fine scale gradients
-  - [barotropic tides](https://github.com/ocean-next/eNATL60/blob/master/analysis/barotropic-tide/README.md)
+  - [barotropic tides](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/barotropic-tide/README.md)
   - baroclinic tides
