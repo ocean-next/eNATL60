@@ -19,7 +19,7 @@ Aurélie Albert ([Ocean Next](https://ocean-next.fr)), Jean-Marc Molines ([MEOM-
   
 ### Results
 
-![plot](https://github.com/ocean-next/eNATL60/tree/master/04_assessment/barotropic-tide/plots/maps_amp_phi_M2N2S2K1O1_eNATL60-FES2014.png| width = 70%)
+![plot](https://github.com/ocean-next/eNATL60/tree/master/04_assessment/barotropic-tide/plots/maps_amp_phi_M2N2S2K1O1_eNATL60-FES2014.png | width = 70%)
   
 
 ### External librairies needed
