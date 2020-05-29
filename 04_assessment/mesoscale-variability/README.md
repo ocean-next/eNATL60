@@ -21,7 +21,7 @@ Aurélie Albert ([Ocean Next](https://ocean-next.fr)), Julien LeSommer ([MEOM-IG
   
 ### Results
 
-![plot](https://github.com/ocean-next/eNATL60/blob/master/analysis/mesoscale-variability/plots/std-mean-SSH-AVISO-eNATL60-BLBT02.png)
+![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/mesoscale-variability/plots/std-mean-SSH-AVISO-eNATL60-BLBT02.png)
   
 
 ### External librairies needed
