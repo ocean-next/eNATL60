@@ -2,6 +2,8 @@
 
 ### Motivation
 
+A classical comparison of ssh with AVISO data
+
 ### Authors
 
 Aurélie Albert ([Ocean Next](https://ocean-next.fr)), Julien LeSommer ([MEOM-IGE](https://github.com/meom-group.io))
@@ -22,6 +24,8 @@ Aurélie Albert ([Ocean Next](https://ocean-next.fr)), Julien LeSommer ([MEOM-IG
 ### Results
 
 ![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/mesoscale-variability/plots/std-mean-SSH-AVISO-eNATL60-BLBT02.png)
+
+Click [![here](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/ocean-next/test-binder/master) for an interactive demonstration of the computation on the Gulf Stream area.
   
 
 ### External librairies needed
