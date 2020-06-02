@@ -2,6 +2,8 @@
 
 ### Motivation
 
+We want to check if the tides modelled with NEMO are adequate regarding FES2014
+
 ### Authors
 
 Aurélie Albert ([Ocean Next](https://ocean-next.fr)), Jean-Marc Molines ([MEOM-IGE](https://github.com/meom-group.io)), Laurent Brodeau ([Ocean Next](https://ocean-next.fr))
@@ -9,8 +11,6 @@ Aurélie Albert ([Ocean Next](https://ocean-next.fr)), Jean-Marc Molines ([MEOM-
 ### Date
 
 17/03/2020
-
-### Detailed description
 
 ### Practical Steps
 
