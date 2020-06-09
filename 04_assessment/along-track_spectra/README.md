@@ -91,13 +91,14 @@ Use of the `-S` option spawns file `NP_track__sossheig_box_GulfS_eNATL60-BLBT02_
 
 
 ![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/along-track_spectra/plots/track_GulfS_viridis.svg)
+*Figure 1: Zoom over the west coast of the US on the eNATL60 grid: nearest-point ground track of the SARAL-AltiKa satellite (during JFM 2017) as found and used by `interp_to_ground_track.x` of SOSIE.* 
+
 
 <br>
 
 
 ## Results
 
-![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/barotropic-tide/plots/maps_amp_phi_M2N2S2K1O1_eNATL60-FES2014_noblack0.png)
 
 
 ## External libraries needed
