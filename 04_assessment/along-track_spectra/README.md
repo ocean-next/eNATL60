@@ -79,7 +79,7 @@ In SOSIE, once the architecture-dependent `make.macro` file is configured accord
     make i2gt
 
 
-  
+
 
 Example of a call:
 
@@ -88,6 +88,11 @@ Example of a call:
                              -S
 
 Use of the `-S` option spawns file `NP_track__sossheig_box_GulfS_eNATL60-BLBT02_JFM-2017__to__SARAL_20170101-20170331.nc`, in which the nearest-point along-track trajectory is shown on the model domain:
+
+
+![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/along-track_spectra/plots/track_GulfS_viridis.svg)
+
+<br>
 
 
 ## Results
