@@ -8,7 +8,7 @@ Compare the spectrum of along-track SSH between a model output and satellite alt
 
 - Hourly model SSH extracted on a rectangular region is interpolated in space and time on the along-track trajectory read into the satellite data (lon[t], lat[t], time[t])
 
-- Fast Fourier transform is applied to all continuous (tappered) along-track segments, with at leas *Np* points, included in the rectangular box
+- Fast Fourier transform is applied to all valid continuous (tappered) along-track segments, that include at least *Np* points, included in the rectangular box (all segments have a length of *Np* points)
 
 - Average of all these FFTs provides the spectrum
 
