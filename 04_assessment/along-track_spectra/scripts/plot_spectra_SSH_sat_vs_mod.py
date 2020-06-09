@@ -147,7 +147,7 @@ def plot_pow_spectrum_ssh( vk1, vps1, clab1=None, clr1=clr_mod, lw1=6, \
     plt.xlabel('Wave-number [cy/km]', color='0.3')
     #
     if cinfo != '':
-        ax2.annotate(cinfo, xy=(0.08, 0.24), xycoords='axes fraction',  \
+        ax2.annotate(cinfo, xy=(0.08, 0.13), xycoords='axes fraction',  \
                      bbox={'facecolor':'0.9', 'alpha':1., 'pad':10}, zorder=100, **font_inf)
     #
     plt.savefig(cfig_name, dpi=rDPI, facecolor='w', edgecolor='w', orientation='portrait', transparent=True)
@@ -362,7 +362,11 @@ for js in vtreat:
 # Plotting mean spectrum:
 vps_mod = nmp.mean(x_all_spectra_m[:,:],axis=0)
 vps_sat = nmp.mean(x_all_spectra_s[:,:],axis=0) 
-cinfrm = cseas+' '+cyear+'\n'+str(nb_v_seg)+' tracks\n'+str(Nsp)+' points\n'+r'$\Delta$L: '+str(round(rdist_sample,1))+' km'
+cinfrm = 'Box: '+cn_box+'\n' \
+         'Period: '+cseas+' '+cyear+'\n' \
+         +'Seg. leng.: '+str(Nsp)+' p\n' \
+         +str(nb_v_seg)+' tracks used\n' \
+         +r'$\Delta$L: '+str(round(rdist_sample,1))+' km'
 
 
 # remove white noise at fine scale for satellite (instrument) [advice from Clement Ubelmann]
