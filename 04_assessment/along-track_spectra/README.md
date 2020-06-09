@@ -78,26 +78,45 @@ In SOSIE, once the architecture-dependent `make.macro` file is configured accord
 
     make i2gt
 
-
-
-
 Example of a call:
 
-    interp_to_ground_track.x -i sossheig_box_GulfS_eNATL60-BLBT02_JFM-2017.nc -v sossheig \
+    interp_to_ground_track.x -i sossheig_box_GulfS_eNATL60_JFM2017.nc -v sossheig \
                              -p SARAL_20170101-20170331.nc -n sla_unfiltered \
                              -S
 
-Use of the `-S` option spawns file `NP_track__sossheig_box_GulfS_eNATL60-BLBT02_JFM-2017__to__SARAL_20170101-20170331.nc`, in which the nearest-point along-track trajectory is shown on the model domain:
+* Use of the `-S` option spawns file `NP_track__<model_data>__to__<satellite_data>.nc`, in which the nearest-point along-track trajectory is shown on the model domain. This is useful for debugging purposes... In our example this file is named:
+`NP_track__sossheig_box_GulfS_eNATL60_JFM2017__to__SARAL_20170101-20170331.nc`
 
 
 ![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/along-track_spectra/plots/track_GulfS_viridis.svg)
 *Figure 1: Zoom over the west coast of the US on the NEMO-eNATL60 grid: nearest-point ground track of the SARAL-AltiKa satellite (during JFM 2017) as found and used by `interp_to_ground_track.x` of SOSIE.* 
 
 
+* `interp_to_ground_track.x` saves the model SSH interpolated on the satellite ground track (both bilinear and nearest-point for space interpolation) as well as the original satellite data into file `result__<model_data>__to__<satellite_data>.nc`. 
+This file is the only file that the Jupyter notebook requires to produce the comparison of SSH spectrum (`notebooks` sub-directory).
+In our example this file is named:
+`result__sossheig_box_GulfS_eNATL60_JFM2017__to__SARAL_20170101-20170331.nc`
+
+
+A figure showing the comparaison of along-track spectrum for SSH between the model and satellite can be otained by means of the Python script `scripts/plot_spectra_SSH_sat_vs_mod.py` and the output file from `interp_to_ground_track.x` of SOSIE:
+
+    plot_spectra_SSH_sat_vs_mod.py -i result__sossheig_box_GulfS_eNATL60_JFM2017__to__SARAL_20170101-20170331.nc \
+                                   -m sossheig -s sla_unfiltered -M NEMO-eNATL60 \
+                                   -S SARAL-Altika -B GulfStream -a -6 -b 2
+
+![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/along-track_spectra/plots/SSH_pow-spectrum_GulfStream__NEMO-eNATL60--SARAL-Altika__JFM.svg)
+*Figure 2: Figure obtained 
+
+
+
 <br>
 
 
 ## Results
+
+
+
+
 
 
 
