@@ -362,10 +362,10 @@ for js in vtreat:
 # Plotting mean spectrum:
 vps_mod = nmp.mean(x_all_spectra_m[:,:],axis=0)
 vps_sat = nmp.mean(x_all_spectra_s[:,:],axis=0) 
-cinfrm = 'Box: '+cn_box+'\n' \
-         'Period: '+cseas+' '+cyear+'\n' \
-         +'Seg. leng.: '+str(Nsp)+' p\n' \
-         +str(nb_v_seg)+' tracks used\n' \
+cinfrm =  'Box: '+cn_box+'\n' \
+         +'Period: '+cseas+' '+cyear+'\n' \
+         +'Segments: '+str(Nsp)+' p\n' \
+         +'Segm. used: '+str(nb_v_seg)+'\n' \
          +r'$\Delta$L: '+str(round(rdist_sample,1))+' km'
 
 
