@@ -97,23 +97,23 @@ In our example this file is named:
 
 ### Spectrum computation and comparison 
 
-The python script `scripts/plot_spectra_SSH_sat_vs_mod.py` takes the output file of `interp_to_ground_track.x` of SOSIE to:
+The python script `scripts/spectra_SSH_sat_vs_mod.py` takes the output file of `interp_to_ground_track.x` of SOSIE to:
 - compute the mean power spectrum of SSH as an average of the spectra obtained from all valid SSH track segments inside the regional box and under the common time window
 - display the comparison in a figure
 - saves the two power spectra into npz files
 
 The script is called as follows (the `-h` option would let you know more):
 
-    plot_spectra_SSH_sat_vs_mod.py -i result__sossheig_box_GulfS_eNATL60_JFM2017__to__SARAL_20170101-20170331.nc \
-                                   -m sossheig     -s sla_unfiltered \
-                                   -M NEMO-eNATL60 -S SARAL-Altika -B GulfStream -a -6 -b 2
+    spectra_SSH_sat_vs_mod.py -i result__sossheig_box_GulfS_eNATL60_JFM2017__to__SARAL_20170101-20170331.nc \
+                              -m sossheig     -s sla_unfiltered \
+                              -M NEMO-eNATL60 -S SARAL-Altika -B GulfStream -a -6 -b 2
 
 ![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/along-track_spectra/plots/SSH_pow-spectrum_GulfStream__NEMO-eNATL60--SARAL-Altika__JFM.svg)
 
-*Figure 2: Figure obtained with `plot_spectra_SSH_sat_vs_mod.py`, see previous command.*
+*Figure 2: Figure obtained with `spectra_SSH_sat_vs_mod.py`, see previous command.*
 
 
-Note: script `plot_spectra_SSH_sat_vs_mod.py` also *savez* the two spectra (`S(k)`) into *npz* files. In our example:
+Note: script `spectra_SSH_sat_vs_mod.py` also *savez* the two spectra (`S(k)`) into *npz* files. In our example:
 
     SSH_pow-spectrum_GulfStream__NEMO-eNATL60--SARAL-Altika__JFM_mod.npz
     SSH_pow-spectrum_GulfStream__NEMO-eNATL60--SARAL-Altika__JFM_sat.npz
