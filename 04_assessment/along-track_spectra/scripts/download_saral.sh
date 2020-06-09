@@ -2,30 +2,31 @@
 
 ## DEPENDENCIES: python 2.7, motuclient (python), and NCO to be installed !
 
+# Your CMEMS credentials
+# => "https://resources.marine.copernicus.eu/?option=com_csw&task=results?option=com_csw&view=account"
+USER_CMEMS='xxxxxxx'
+PASS_CMEMS='xxxxxxx'
+
+# Where to save on your computer:
 DIR_SAVE="/data2/climate/SATELLITE/SARAL"
 #DIR_SAVE="/MEDIA/data/SATELLITE/SARAL"
 #DIR_SAVE="/mnt/meom/workdir/brodeau/SATELLITE/NEW/SARAL"
 
+# Period of interest
 YEAR="2017"
-cm1="01" ; d1="01" ; h1="00:00:00"
-cm2="03" ; d2="31" ; h2="23:59:59"
-
-#YEAR="2016"
-#cm1="07" ; d1="01" ; h1="00:00:00"
-#cm2="09" ; d2="30" ; h2="23:59:59"
+cm1="01" ; d1="01" ; h1="00:00:00" ; # day # 1 
+cm2="03" ; d2="31" ; h2="23:59:59" ; # last day...
 
 
-USER_CMEMS='xxxxxxx'
-PASS_CMEMS='xxxxxxx'
 
+### end of safe user configuration ###############################
 
 VAR2KEEP="time,latitude,longitude,cycle,track,sla_unfiltered"
 
 f2d="SARAL_${YEAR}${cm1}${d1}-${YEAR}${cm2}${d2}.zip"
 
-# Main file to create:
+# Final file to create:
 FILE_SAT="${DIR_SAVE}/SARAL_${YEAR}${cm1}${d1}-${YEAR}${cm2}${d2}.nc"
-
 
 
 ########################################
@@ -60,7 +61,6 @@ if [ ! -f ${FILE_SAT} ]; then
                --user ${USER_CMEMS} --pwd ${PASS_CMEMS}
 
         unzip -o ${f2d}
-
         
     fi
     
