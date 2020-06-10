@@ -23,26 +23,3 @@
  - Xialong Iu
  
 
-
-
-*somewhere else:*
-
-### eNATL60 twin-experiment data explorers
- - Aurélie Albert, Ocean Next
- - Julien LeSommer, MEOM-IGE
- - Adekunle Ajayi, MEOM-IGE
- - Sammy Metref, MEOM-IGE
- - Florian Guillou, MEOM-IGE
- - Johannes Karstensen, Arne Bendinger, GEOMAR
- - Maxime Ballarota, CLS
- - Erika Henell, MEOM-IGE
- - Redouane Lguensat, MEOM-IGE
- - Lucile Gaultier, Said Ouala, ODL
- - Anda Vladoiu, Yannis Cuypers, Pascale Bouruet-Aubertot, LOCEAN
- - Daniel Tarry, Ananda Pascual, Helena Antich, IMEDEA
- - Ronan Fablet, Nolwenn Olivier, IMT 
- - Laura Gomez Navarro, MEOM-IGE
- - Quentin Jamet, Takaya Ushida, MOGPA-CONTACTS
- - Anna Sommer, Julie Deshayes, 
- - Aleksi Nummelin, NORCE
- - Guillaume Lapeyre, LMD
