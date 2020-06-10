@@ -8,10 +8,10 @@ This folder contains the results of a set of comparisons of eNATL60 model data w
   - [comparison to along-track altimetry (SARAL)](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/along-track_spectra)
   
 ## upcoming comparisons
-  - hydrography : comparison with ARGO floats and OVIDE sections
-  - mesoscale variability : comparison with ARGO derived estimates of EAPE
-  - large scale circulation : comparison with AVISO MDT
-  - frequency spectra : comparison with GDP drifters 
-  - frequency spectra : comparison with currentmeter archive data. 
-  - fine scale gradients : comparison with OSMOSIS array of currentmeters
-  - baroclinic tides : comparison with spatialy along-track SSH variance. 
+  - *hydrography* : comparison with ARGO floats and OVIDE sections
+  - *eddy variability* : comparison with ARGO derived estimates of EAPE
+  - *large scale circulation* : comparison with AVISO MDT
+  - *frequency spectra* : comparison with GDP drifters 
+  - *frequency spectra* : comparison with currentmeter archive data. 
+  - *fine scale gradients* : comparison with OSMOSIS array of currentmeters
+  - *baroclinic tides* : comparison with spatialy along-track SSH variance. 
