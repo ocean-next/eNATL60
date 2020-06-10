@@ -1,8 +1,8 @@
-## Description of NEMO-eNATL60  experiment set-up 
+# Description of NEMO-eNATL60  experiment set-up 
 
 We here provide a brief description of NEMO-eNATL60 model configuration and experiment. The code used for producing eNATL60 simulations is available on a separate GitHub repository.
   
-### NEMO-eNATL60 model configuration 
+## NEMO-eNATL60 model configuration 
  - domain : 
  - grid : 
  - bathymetry : 
