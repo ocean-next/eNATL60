@@ -1,5 +1,6 @@
-# Why running eNATL60 simulations ?
+# Rationale and motivation for running NEMO-eNATL60 simulations
 
-Pour faire un pognon de dingue...
+ - virtual data for SWOT mission
+ - studying cross-scale interaction art mid-latitudes. 
 
 
