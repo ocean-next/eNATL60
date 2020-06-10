@@ -21,6 +21,7 @@ We here provide a list of individuals or groups with whom we have shared NEMO-eN
  - Anna Sommer, Julie Deshayes, 
  - Aleksi Nummelin, NORCE
  - Guillaume Lapeyre, LMD
+ - Brian Arbic, Jonathan Brasch, Univ. Michigan
 
 ## Published references
 None so far. 
