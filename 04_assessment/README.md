@@ -1,9 +1,17 @@
-# Some analysis on eNATL60 simulations
+# Quantitative assessment of eNATL60 simulations
 
-  - description of the domain, grid, bathymetry, etc ... 
-  - hydrographic comparison with ARGO and OVIDE
-  - large scale circulation
-  - [mesoscale variability](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/mesoscale-variability/README.md)
-  - fine scale gradients
-  - [barotropic tides](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/barotropic-tide/README.md)
-  - baroclinic tides
+This folder contains the results of a set of comparisons of eNATL60 model data with observational datasets. Each comparison is presented in a dedicated folder which contains the result of the analysis and the code used to perform the analysis. 
+
+## completed comparisons
+  - [mesoscale variability (AVISO)](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/mesoscale-variability/README.md)
+  - [barotropic tides (FES2014)](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/barotropic-tide/README.md)
+  - [comparison to along-track altimetry (SARAL)](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/along-track_spectra)
+  
+## upcoming comparisons
+  - hydrography : comparison with ARGO floats and OVIDE sections
+  - mesoscale variability : comparison with ARGO derived estimates of EAPE
+  - large scale circulation : comparison with AVISO MDT
+  - frequency spectra : comparison with GDP drifters 
+  - frequency spectra : comparison with currentmeter archive data. 
+  - fine scale gradients : comparison with OSMOSIS array of currentmeters
+  - baroclinic tides : comparison with spatialy along-track SSH variance. 
