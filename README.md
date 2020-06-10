@@ -15,4 +15,4 @@ Because we believe that the material to be gathered here should evolve over time
 
 ## Citing this repository
 
-This GitHub repository is associatred with a doi on Zenodo. Should you need to cite NEMO-eNATL60 simulations, please refer to thsi Zenodo doi.
+This GitHub repository is associated with a doi on Zenodo. Should you need to cite NEMO-eNATL60 simulations, please refer to thsi Zenodo doi.
