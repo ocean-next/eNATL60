@@ -13,3 +13,6 @@ Because we believe that the material to be gathered here should evolve over time
   - Results on the [assessment](./04_assessment/README.md) of the model with respect to observational datsets;
   - A list of on-going [studies and groups](./06_dissemintation.md) using eNATL60 model data. 
 
+## Citing this repository
+
+This GitHub repository is associatred with a doi on Zenodo. Should you need to cite NEMO-eNATL60 simulations, please refer to thsi Zenodo doi.
