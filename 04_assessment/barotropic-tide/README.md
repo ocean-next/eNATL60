@@ -2,7 +2,7 @@
 
 ### Motivation
 
-We want to check if the tides modelled with NEMO are adequate regarding FES2014
+The purpose of this comparison is to assess the representation of barotropic tides in NEMO-eNATL60. We do so by comparing model sea surface height with the FES2014 tidal atlas. 
 
 ### Authors
 
