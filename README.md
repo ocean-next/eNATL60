@@ -6,7 +6,7 @@ Because we believe that the material to be gathered here should evolve over time
 
 ## Content of the repository 
 
-  - A list of [contributors](./01_contributors.md) involved at various stages of the project development;
+  - A list of [contributors](./00_contributors.md) involved at various stages of the project development;
   - A statement of our [motivations](./01_motivation.md) for running these numerical experiments; 
   - A description of the model configuration, [set-up and experiments](./02_experiment-setup.md);
   - Some more details on the [production](./03_production.md) of the simulations; 
