@@ -8,9 +8,9 @@ Because we believe that the material to be gathered here should evolve over time
   - A statement of our [motivations](./01_motivation.md) for running these experiments; 
   - A list of [contributors](./02_contributors.md) involved at various stages of the project development;
   - A description of the model configuration [set-up](./02_set-up.md);
-  - Some details on the [production](./03_production.md) of the simulations; 
+  - Some more details on the [production](./03_production.md) of the simulations; 
   - Practical information on how to access the model [data](./05_data.md);
-  - Results on the [assessment](./04_assessment/README.md) of the model with respect to observational datsets;
+  - Results on the [assessment](./04_assessment/README.md) of the model with respect to observationnal datasets;
   - A list of on-going [studies and groups](./06_dissemintation.md) using eNATL60 model data. 
 
 ## Citing this repository
