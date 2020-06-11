@@ -4,7 +4,8 @@
  - Laurent Brodeau, Ocean Next, Grenoble, France
  - Jean-Marc Molines, MEOM-IGE, Grenoble, France
  - Julien LeSommer, MEOM-IGE, Grenoble, France
- - Bernard Barnier, Thierry Penduff, Emmanuel Cosme, Aurélie Albert, MEOM-IGE, Grenoble, France
+ - Bernard Barnier, Thierry Penduff, Emmanuel Cosme, MEOM-IGE, Grenoble, France
+ - Aurélie Albert, Ocean Next, Grenoble, France
  - Brian Arbic, University of Michigan, MI, USA
  - Aurélien Ponte, IFREMER, Brest, France
  - Jérôme Chanut, Romain Bourdalle-Badie, Mercator Ocean Int., Toulouse, France
