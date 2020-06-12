@@ -1,12 +1,16 @@
 # Spectral analysis of along-track altimetry: eNATL60 vs SARAL-AltiKa
 
-## Rationale
+## Context
 
-Compare the spectrum of along-track SSH between a model output and satellite altimeter data
+<!-- Compare the spectrum of along-track SSH between a model output and satellite altimeter data -->
+
+The mesoscale resolution capability of present generation altimeters is improving our understanding of the contribution of mesoscale processes on the ocean circulation. As such, satellite altimetry data, and in particular those of the SARAL-AltiKa mission, are well suited to assess the ability of high-resolution ocean models, like NEMO-eNATL60, to resolve these mesoscale processes. Meanwhile, it is the same type of numerical models output data that are presently used to prepare the SWOT mission, both when it comes to simulating the submesoscale altimetric signal that SWOT will actually "sense" (which yet remains unobserved by present-day altimeters), and to generate synthetic data to prepare the post-processing chains. Existing satellite altimetry databases like SARAL therefore plays an important, indirect, yet critical, role in the preparation of upcoming high-resolution altimetry missions like SWOT.
+
+Here we illustrate how satellite altimetry data are used to perform a spectral comparison between the simulated ocean surface state of the eNATL60 twin-experiment (with/without explicit tidal motion) and _observations_.
 
 ## Method
 
-- Hourly model SSH extracted on a rectangular region is interpolated in space and time on the along-track trajectory read into the satellite data (lon[t], lat[t], time[t])
+- Hourly model SSH extracted on a rectangular region is interpolated in space and time on the along-track trajectory read into the satellite data (`lon[t], lat[t], time[t]`)
 
 - Fast Fourier transform is applied to all valid continuous (tappered) along-track segments, that include at least *Np* points, included in the rectangular box (all segments have a length of *Np* points)
 
@@ -14,11 +18,12 @@ Compare the spectrum of along-track SSH between a model output and satellite alt
 
 ## Authors
 
-Laurent Brodeau ([Ocean Next](https://ocean-next.fr))
+Laurent Brodeau, [Ocean Next](https://ocean-next.fr)
 
-## Date
+June 2020
 
-08/06/2020
+
+
 
 ## Technical aspects
 
@@ -127,7 +132,7 @@ Note: script `spectra_SSH_sat_vs_mod.py` also *savez* the two spectra (`S(k)`) i
 
 ![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/along-track_spectra/plots/PSD_SSH_Azores_All-season_tr_sat-trimmed.svg)
 
-*Figure 3: Seasonal power spectral density of eNATL60's hourly SSH sampled over SARAL-Altika along-track data, on the so-called `Azores Box` (23 - 40 &deg;N, 37 - 24 &deg;W). For eNATL60 experiments with explicit tidal motion ("tide") and without are shown.*
+*Figure 3: Seasonal power spectral density of eNATL60's hourly SSH sampled over SARAL-Altika along-track data, on the so-called `Azores Box` (23-40°N, 37-24°W). For eNATL60 experiments with explicit tidal motion ("tide") and without are shown.*
 
 
 
