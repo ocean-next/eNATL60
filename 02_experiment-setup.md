@@ -5,6 +5,8 @@ We here provide a brief description of NEMO-eNATL60 model configuration and expe
 
 eNATL60 is a basin-scale configuration of the NEMO (Nucleus for European Modeling of the Ocean) at ultrahigh horizontal and vertical resolution. eNATL60 is the successor and horizontally extended version of NATL60. eNATL60 spans the North Atlantic from about 6°N up to the polar circle and fully includes the Gulf of Mexico, the Med Sea, and the Black Sea.
 
+### In short
+
 - Numerical code: NEMO 3.6 + xios-2.0 (https://www.nemo-ocean.eu/)
 - Horizontal grid: 1/60°, 8354×4729 points
 - 0.8 km < Δx < 1.6 km
