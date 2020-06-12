@@ -123,6 +123,8 @@ Note: script `spectra_SSH_sat_vs_mod.py` also *savez* the two spectra (`S(k)`) i
 
 ## Results
 
+    << IN CONSTRUCTION ... >>
+
 ![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/along-track_spectra/plots/PSD_SSH_Azores_All-season_tr_sat-trimmed.svg)
 
 *Figure 3: Seasonal power spectral density of eNATL60's hourly SSH sampled over SARAL-Altika alongrtack data, on the so-called `Azores Box` (23 - 40 &deg;N, 37 - 24 &deg;W). For eNATL60 experiments with explicit tidal motion ("tide") and without are shown.*
