@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="674.99994pt"
-   height="674.99994pt"
-   viewBox="0 0 674.99996 674.99996"
+   width="600pt"
+   height="600pt"
+   viewBox="0 0 600.00002 600.00002"
    version="1.1"
    id="svg1182"
    sodipodi:docname="PSD_SSH_Azores_All-season_tr_sat-trimmed.svg"
@@ -42,7 +42,7 @@
      showgrid="false"
      inkscape:zoom="0.41627779"
      inkscape:cx="283.46456"
-     inkscape:cy="283.42601"
+     inkscape:cy="283.42608"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
@@ -602,7 +602,7 @@
   </defs>
   <g
      id="surface1"
-     transform="scale(1.5876078)">
+     transform="scale(1.411207)">
     <g
        clip-path="url(#clip1)"
        id="g199"
