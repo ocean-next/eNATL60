@@ -86,7 +86,7 @@ Example of a call:
 
 
 ![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/along-track_spectra/plots/track_GulfS_viridis.svg)
-*Figure 1: Zoom over the west coast of the US on the NEMO-eNATL60 grid: nearest-point ground track of the SARAL-AltiKa satellite (during JFM 2017) as found and used by `interp_to_ground_track.x` of SOSIE.* 
+*Figure 1: Zoom over the East coast of the US on the NEMO-eNATL60 grid: nearest-point ground track of the SARAL-AltiKa satellite (during JFM 2017) as found and used by `interp_to_ground_track.x` of SOSIE.* 
 
 
 * `interp_to_ground_track.x` saves the model SSH interpolated on the satellite ground track (both bilinear and nearest-point for space interpolation) as well as the original satellite data into file `result__<model_data>__to__<satellite_data>.nc`. 
@@ -123,7 +123,7 @@ Note: script `spectra_SSH_sat_vs_mod.py` also *savez* the two spectra (`S(k)`) i
 
 ## Results
 
-
+![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/along-track_spectra/plots/PSD_SSH_Azores_All-season_tr_sat-trimmed.svg)
 
 
 
