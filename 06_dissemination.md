@@ -24,4 +24,5 @@ We here provide a list of individuals or groups with whom we have shared NEMO-eN
  - Brian Arbic, Jonathan Brasch, Univ. Michigan
 
 ## Published references
-None so far. 
+
+Ajayi A. (2020). Cross-scale interactions and turbulent cascades in the North Atlantic Ocean. Earth Sciences. Université Grenoble Alpes, (online)[https://tel.archives-ouvertes.fr/tel-02861906]
