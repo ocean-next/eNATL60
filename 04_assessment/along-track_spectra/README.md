@@ -8,6 +8,10 @@ The mesoscale resolution capability of present generation altimeters is improvin
 
 Here we illustrate how satellite altimetry data are used to perform a spectral comparison between the simulated ocean surface state of the eNATL60 twin-experiment (with/without explicit tidal motion) and _observations_.
 
+
+
+
+
 ## Method
 
 - Hourly model SSH extracted on a rectangular region is interpolated in space and time on the along-track trajectory read into the satellite data (`lon[t], lat[t], time[t]`)
@@ -131,16 +135,17 @@ Note: script `spectra_SSH_sat_vs_mod.py` also *savez* the two spectra (`S(k)`) i
     << IN CONSTRUCTION ... >>
 
 ![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/along-track_spectra/plots/PSD_SSH_Azores_All-season_tr_sat-trimmed.svg)
-
 *Figure 3: Seasonal power spectral density of eNATL60's hourly SSH sampled over SARAL-Altika along-track data, on the so-called `Azores Box` (23-40°N, 37-24°W). For eNATL60 experiments with explicit tidal motion ("tide") and without are shown.*
 
+- SARAL and eNATL60 show the substantial seasonality of surface ocean turbulence in the North Atlantic, both in terms of slopes and levels of energy at scales below 100 km.
+
+- Excellent spectral agreement between the along-track-sampled SSH of eNATL60, and along-track observations from SARAL.
+
+- The resolution capability of the KA-band captures wavelengths down to typically 70 km, over the region studied.
+
+- Importance of having tidal motion in numerical models to study scales smaller than 100 km.
 
 
-<!-- ## External libraries needed
-
-  - the `TIDAL_TOOLS` :  https://github.com/molines/TIDAL_TOOLS
-  - [python libraries](environment.yaml)
--->
 
 
 ## License
