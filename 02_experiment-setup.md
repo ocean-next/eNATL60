@@ -2,7 +2,6 @@
 
 We here provide a brief description of NEMO-eNATL60 model configuration and experiment. The code used for producing eNATL60 simulations is available on a separate GitHub repository.
 
-
 eNATL60 is a basin-scale configuration of the NEMO (Nucleus for European Modeling of the Ocean) at ultrahigh horizontal and vertical resolution. eNATL60 is the successor and horizontally extended version of NATL60. eNATL60 spans the North Atlantic from about 6°N up to the polar circle and fully includes the Gulf of Mexico, the Med Sea, and the Black Sea.
 
 ### In short
@@ -31,5 +30,15 @@ eNATL60 is a basin-scale configuration of the NEMO (Nucleus for European Modelin
  - boundary conditions : 
 
 ## NEMO-eNATL60 model experiments
- - eNATL60-BLB02
+ - eNATL60-BLB002
  - eNATL60-BLBT02
+
+## NEMO-eNATL60 source code
+
+The source code for the two experiments is hosted on the [`meom-configurations` GitHub page](https://github.com/meom-configurations).
+
+ - [eNATL60-BLB002 (experimemt without explicit tidal motion)](https://github.com/meom-configurations/eNATL60-BLB002)
+ - [eNATL60-BLBT02 (experimemt WITH explicit tidal motion)](https://github.com/meom-configurations/eNATL60-BLBT02)
+
+
+
