@@ -29,6 +29,13 @@ eNATL60 is a basin-scale configuration of the NEMO (Nucleus for European Modelin
  - surface forcing : 
  - boundary conditions : 
 
+### Configuration files
+For the two experiments NEMO ocean and sea-ice namelists, as well as XIOS xml files can be found on the [`meom-configurations` GitHub page](https://github.com/meom-configurations).
+
+ - [eNATL60-BLB002 (experimemt without explicit tidal motion)](https://github.com/meom-configurations/eNATL60-BLB002/tree/master/namelists_xml)
+ - [eNATL60-BLBT02 (experimemt WITH explicit tidal motion)](https://github.com/meom-configurations/eNATL60-BLBT02/tree/master/namelists_xml)
+
+
 ## NEMO-eNATL60 model experiments
  - eNATL60-BLB002
  - eNATL60-BLBT02
