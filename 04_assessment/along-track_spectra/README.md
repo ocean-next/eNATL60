@@ -1,10 +1,10 @@
-# Spectral analysis of along-track altimetry: eNATL60 vs SARAL-AltiKa
+# Spectral analysis of along-track altimetry: eNATL60 vs SARAL-AltiKa and Sentinel-3A
 
 ## Context
 
 <!-- Compare the spectrum of along-track SSH between a model output and satellite altimeter data -->
 
-The mesoscale resolution capability of present generation altimeters is improving our understanding of the contribution of mesoscale processes on the ocean circulation. As such, satellite altimetry data, and in particular those of the SARAL-AltiKa mission, are well suited to assess the ability of high-resolution ocean models, like NEMO-eNATL60, to resolve these mesoscale processes. Meanwhile, it is the same type of numerical models output data that are presently used to prepare the SWOT mission, both when it comes to simulating the submesoscale altimetric signal that SWOT will actually "sense" (which yet remains unobserved by present-day altimeters), and to generate synthetic data to prepare the post-processing chains. Existing satellite altimetry databases like SARAL therefore plays an important, indirect, yet critical, role in the preparation of upcoming high-resolution altimetry missions like SWOT.
+The mesoscale resolution capability of present generation altimeters is improving our understanding of the contribution of mesoscale processes on the ocean circulation. As such, satellite altimetry data, and in particular those of the SARAL-AltiKa and Sentinel-3A missions, are well suited to assess the ability of high-resolution ocean models, like NEMO-eNATL60, to resolve these mesoscale processes. Meanwhile, it is the same type of numerical models output data that are presently used to prepare the SWOT mission, both when it comes to simulating the submesoscale altimetric signal that SWOT will actually "sense" (which yet remains unobserved by present-day altimeters), and to generate synthetic data to prepare the post-processing chains. Existing satellite altimetry databases like SARAL or Sentinel therefore play an important, indirect, yet critical, role in the preparation of upcoming high-resolution altimetry missions like SWOT.
 
 Here we illustrate how satellite altimetry data are used to perform a spectral comparison between the simulated ocean surface state of the eNATL60 twin-experiment (with/without explicit tidal motion) and _observations_.
 
@@ -68,7 +68,7 @@ Example \#1, download SARAL data for JAS 2017:
 
 Example \#2, download Sentinel data for JFM 2016:
 
-    >> download_alontrack_data_cmems.sh saral 2016 0101 0331
+    >> download_alontrack_data_cmems.sh sentinel 2016 0101 0331
 
 
 **Software dependencies for script `download_alontrack_data_cmems.sh` :**
