@@ -46,7 +46,7 @@ A netCDF file containing hourly (preferably) SSH on the rectangular region and t
 
 ### Satellite data:
 
-The script `download_saral.sh` allows the user to directly download the relevant satellite data
+The script `download_alontrack_data_cmems.sh` allows the user to directly download the relevant satellite data
 from the [CMEMS](https://resources.marine.copernicus.eu/?option=com_csw&task=results) data archive, provided the user has previously registered on the CMEMS website.
 
 Technically, this script downloads the netCDF data hosted by CMEMS for the requested period and convert it to a usable netCDF files:
@@ -56,14 +56,33 @@ Technically, this script downloads the netCDF data hosted by CMEMS for the reque
 - generate one single netCDF file for the whole period
 - ensure efficient netCDF-4 deflation
 
-**Software dependencies for script `download_saral.sh` :**
+
+Command-line usage of the script:
+
+    download_alontrack_data_cmems.sh <satellite_name> <YEAR> <MMDD1> <MMDD2>
+         * currently supported satellites => 'saral' (SARAL-AltiKa) or 'sentinel' (Sentinel 3A)
+
+Example \#1, download SARAL data for JAS 2017:
+
+    >> download_alontrack_data_cmems.sh saral 2017 0701 0930
+
+Example \#2, download Sentinel data for JFM 2016:
+
+    >> download_alontrack_data_cmems.sh saral 2016 0101 0331
+
+
+**Software dependencies for script `download_alontrack_data_cmems.sh` :**
 - `python 2.7`
 - `motuclient` https://marine.copernicus.eu/faq/what-are-the-motu-and-python-requirements/
 - `nco` http://nco.sourceforge.net/
 
+
+
+
+
 **Requirements:**
 
-(When not using the `download_saral.sh` script to download and process the satellite data)
+(When not using the `download_alontrack_data_cmems.sh` script to download and process the satellite data)
 
 - record dimension `t` (or any other name) is `UNLIMITED` !
 - field of SSH/SLA is record-dependent and punctual in space (ex: `sla_unfiltered(t)`)
@@ -82,13 +101,13 @@ in [SOSIE](https://github.com/brodeau/sosie) allows...
 
 In SOSIE, once the architecture-dependent `make.macro` file is configured according to your Fortran compiler and netCDF installation, `interp_to_ground_track.x` is compiled by simply running:
 
-    make i2gt
+    >> make i2gt
 
 Example of a call:
 
-    interp_to_ground_track.x -i sossheig_box_GulfS_eNATL60_JFM2017.nc -v sossheig \
-                             -p SARAL_20170101-20170331.nc -n sla_unfiltered \
-                             -S
+    >> interp_to_ground_track.x -i sossheig_box_GulfS_eNATL60_JFM2017.nc -v sossheig \
+                                -p SARAL_20170101-20170331.nc -n sla_unfiltered \
+                                -S
 
 * Use of the `-S` option spawns file `NP_track__<model_data>__to__<satellite_data>.nc`, in which the nearest-point along-track trajectory is shown on the model domain. This is useful for debugging purposes... In our example this file is named:
 `NP_track__sossheig_box_GulfS_eNATL60_JFM2017__to__SARAL_20170101-20170331.nc`
@@ -113,9 +132,9 @@ The python script `scripts/spectra_SSH_sat_vs_mod.py` takes the output file of `
 
 The script is called as follows (the `-h` option would let you know more):
 
-    spectra_SSH_sat_vs_mod.py -i result__sossheig_box_GulfS_eNATL60_JFM2017__to__SARAL_20170101-20170331.nc \
-                              -m sossheig     -s sla_unfiltered \
-                              -M NEMO-eNATL60 -S SARAL-Altika -B GulfStream -a -6 -b 2
+    >> spectra_SSH_sat_vs_mod.py -i result__sossheig_box_GulfS_eNATL60_JFM2017__to__SARAL_20170101-20170331.nc \
+                                 -m sossheig     -s sla_unfiltered \
+                                 -M NEMO-eNATL60 -S SARAL-Altika -B GulfStream -a -6 -b 2
 
 ![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/along-track_spectra/plots/SSH_pow-spectrum_GulfStream__NEMO-eNATL60--SARAL-Altika__JFM.svg)
 
