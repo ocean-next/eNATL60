@@ -163,6 +163,18 @@ Note: script `spectra_SSH_sat_vs_mod.py` also *savez* the two spectra (`S(k)`) i
 ![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/along-track_spectra/plots/PSD_SSH_Azores_All-season_tr_sat-trimmed.svg)
 *Figure 3: Seasonal power spectral density of eNATL60's hourly SSH sampled over SARAL-Altika along-track data, on the so-called `Azores Box` (23-40°N, 37-24°W). For eNATL60 experiments with explicit tidal motion ("tide") and without are shown.*
 
+
+
+### Spectral comparison
+
+![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/along-track_spectra/plots/eNATL60-twin_vs_SARAL.svg)
+
+![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/along-track_spectra/plots/eNATL60-twin_vs_Sentinel3.svg)
+
+
+
+### Summary
+
 - SARAL and eNATL60 show the substantial seasonality of surface ocean turbulence in the North Atlantic, both in terms of slopes and levels of energy at scales below 100 km.
 
 - Excellent spectral agreement between the along-track-sampled SSH of eNATL60, and along-track observations from SARAL.

@@ -67,10 +67,12 @@ def plot_pow_spectrum_ssh( vk1, vps1, clab1=None, clr1=clr_mod, lw1=6, \
     fig = plt.figure(num = 1, figsize=(9.,9.), facecolor='w', edgecolor='k')
     ax  = plt.axes([0.1, 0.07, 0.875, 0.86])
 
+    # PLOTS:
+    plt.plot(    nmp.log10(vk1), nmp.log10(vps1), '-', color=clr1, linewidth=lw1, label=clab1, zorder=5)
+    if len(vk2) > 1 and len(vps2) > 1:
+        plt.plot(nmp.log10(vk2), nmp.log10(vps2), '-', color=clr2, linewidth=lw2, label=clab2, zorder=15)    
     if len(vk3) > 1 and len(vps3) > 1:
         plt.plot(nmp.log10(vk3), nmp.log10(vps3), '-', color=clr3, linewidth=lw3, label=clab3, zorder=10)
-    if len(vk2) > 1 and len(vps2) > 1:
-        plt.plot(nmp.log10(vk2), nmp.log10(vps2), '-', color=clr2, linewidth=lw2, label=clab2, zorder=15)
     if len(vk4) > 1 and len(vps4) > 1:
         plt.plot(nmp.log10(vk4), nmp.log10(vps4), '-', color=clr4, linewidth=lw4, label=clab4, zorder=4)
     if len(vk5) > 1 and len(vps5) > 1:
@@ -78,7 +80,6 @@ def plot_pow_spectrum_ssh( vk1, vps1, clab1=None, clr1=clr_mod, lw1=6, \
     if len(vk6) > 1 and len(vps6) > 1:
         plt.plot(nmp.log10(vk6), nmp.log10(vps6), '-', color=clr6, linewidth=lw6, label=clab6, zorder=5)
 
-    plt.plot(    nmp.log10(vk1), nmp.log10(vps1), '-', color=clr1, linewidth=lw1, label=clab1, zorder=5)
 
     nl = len(vk1)
     i1=int(0.53*float(nl)) ; i2=nl ; rfct = 3.
