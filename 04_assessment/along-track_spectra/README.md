@@ -136,8 +136,7 @@ The script is called as follows (the `-h` option would let you know more):
                                  -m sossheig     -s sla_unfiltered \
                                  -M NEMO-eNATL60 -S SARAL-Altika -B GulfStream -a -6 -b 2
 
-![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/along-track_spectra/plots/SSH_pow-spectrum_GulfStream__NEMO-eNATL60--SARAL_Sentinel3_JFM.svg)
-
+![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/along-track_spectra/plots/SSH_pow-spectrum_GulfStream__NEMO-eNATL60--SARAL_Sentinel3_JFM.svg)<br>
 *Figure 2: Figure obtained with `spectra_SSH_sat_vs_mod.py`, see previous command.*
 
 
