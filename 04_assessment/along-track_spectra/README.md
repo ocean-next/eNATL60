@@ -46,7 +46,7 @@ A netCDF file containing hourly (preferably) SSH on the rectangular region and t
 
 ### Satellite data:
 
-The script `download_alontrack_data_cmems.sh` allows the user to directly download the relevant satellite data
+The script `download_alongtrack_data_cmems.sh` allows the user to directly download the relevant satellite data
 from the [CMEMS](https://resources.marine.copernicus.eu/?option=com_csw&task=results) data archive, provided the user has previously registered on the CMEMS website.
 
 Technically, this script downloads the netCDF data hosted by CMEMS for the requested period and convert it to a usable netCDF files:
@@ -59,19 +59,19 @@ Technically, this script downloads the netCDF data hosted by CMEMS for the reque
 
 Command-line usage of the script:
 
-    download_alontrack_data_cmems.sh <satellite_name> <YEAR> <MMDD1> <MMDD2>
+    download_alongtrack_data_cmems.sh <satellite_name> <YEAR> <MMDD1> <MMDD2>
          * currently supported satellites => 'saral' (SARAL-AltiKa) or 'sentinel' (Sentinel 3A)
 
 Example \#1, download SARAL data for JAS 2017:
 
-    >> download_alontrack_data_cmems.sh saral 2017 0701 0930
+    >> download_alongtrack_data_cmems.sh saral 2017 0701 0930
 
 Example \#2, download Sentinel data for JFM 2016:
 
-    >> download_alontrack_data_cmems.sh sentinel 2016 0101 0331
+    >> download_alongtrack_data_cmems.sh sentinel 2016 0101 0331
 
 
-**Software dependencies for script `download_alontrack_data_cmems.sh` :**
+**Software dependencies for script `download_alongtrack_data_cmems.sh` :**
 - `python 2.7`
 - `motuclient` https://marine.copernicus.eu/faq/what-are-the-motu-and-python-requirements/
 - `nco` http://nco.sourceforge.net/
@@ -82,7 +82,7 @@ Example \#2, download Sentinel data for JFM 2016:
 
 **Requirements:**
 
-(When not using the `download_alontrack_data_cmems.sh` script to download and process the satellite data)
+(When not using the `download_alongtrack_data_cmems.sh` script to download and process the satellite data)
 
 - record dimension `t` (or any other name) is `UNLIMITED` !
 - field of SSH/SLA is record-dependent and punctual in space (ex: `sla_unfiltered(t)`)
@@ -156,7 +156,7 @@ Note: script `spectra_SSH_sat_vs_mod.py` also *savez* the two spectra (`S(k)`) i
 ### Regions of interest
 
 ![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/along-track_spectra/plots/boxes_spectra_eNATL60.png)<br>
-*Figure 3: The two rectangular regions used for the along-track spectral analysis. `Azores` box: 23-40°N, 37-24°W; `GulfS`: 32-44°N, 75-50°W.*
+*Figure 3: The two rectangular regions used for the along-track spectral analysis. `Azores`: 23-40°N, 37-24°W; `GulfS`: 32-44°N, 75-50°W.*
 
 
 ### Spectral comparison
