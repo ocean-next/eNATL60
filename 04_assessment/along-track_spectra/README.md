@@ -151,25 +151,22 @@ Note: script `spectra_SSH_sat_vs_mod.py` also *savez* the two spectra (`S(k)`) i
 
 ## Results
 
-
-
-### Regions of interest
-![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/along-track_spectra/plots/boxes_spectra_eNATL60.png)
-*Figure 2: The two rectangulat regions used for the along-track spectral analysis.*
-
-
     << IN CONSTRUCTION ... >>
 
-![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/along-track_spectra/plots/PSD_SSH_Azores_All-season_tr_sat-trimmed.svg)
-*Figure 3: Seasonal power spectral density of eNATL60's hourly SSH sampled over SARAL-Altika along-track data, on the so-called `Azores Box` (23-40°N, 37-24°W). For eNATL60 experiments with explicit tidal motion ("tide") and without are shown.*
+### Regions of interest
 
+![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/along-track_spectra/plots/boxes_spectra_eNATL60.png)
+
+*Figure 3: The two rectangular regions used for the along-track spectral analysis. `Azores Box` (23-40°N, 37-24°W), *
 
 
 ### Spectral comparison
 
-![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/along-track_spectra/plots/eNATL60-twin_vs_SARAL.svg)
+![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/along-track_spectra/plots/eNATL60-twin_vs_SARAL.svg)<br>
+*Figure 4: Seasonal power spectral density of eNATL60's hourly SSH sampled over SARAL-Altika along-track data, on the two regions shown in Figure 3. For eNATL60 experiments with explicit tidal motion ("tide") and without are shown.*
 
-![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/along-track_spectra/plots/eNATL60-twin_vs_Sentinel3.svg)
+![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/along-track_spectra/plots/eNATL60-twin_vs_Sentinel3.svg)<br>
+*Figure 5: Seasonal power spectral density of eNATL60's hourly SSH sampled over Sentinel 3A along-track data, on the two regions shown in Figure 3. For eNATL60 experiments with explicit tidal motion ("tide") and without are shown.*
 
 
 
