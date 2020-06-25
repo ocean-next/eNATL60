@@ -40,4 +40,4 @@ In practice, please follow the template of one of the available [assessments](./
 
 ## Citing this repository
 
-As it grows over time, this GitHub repository will regularly be archived on [Zenodo](https://zenodo.org) and atgged with a digital object identifier (doi). Should you need to cite NEMO-eNATL60 simulations, please refer to the latest Zenodo doi.
+As it grows over time, this GitHub repository will regularly be archived on [Zenodo](https://zenodo.org) and tagged with a digital object identifier (doi). Should you need to cite NEMO-eNATL60 simulations, please refer to the latest Zenodo doi.
