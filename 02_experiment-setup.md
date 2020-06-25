@@ -18,9 +18,10 @@ eNATL60 is a basin-scale configuration of the NEMO (Nucleus for European Modelin
 - Model time step: 40s
 - Model integration speed: 45 minutes for 1 model day
 
+<!--
 ![plot](https://github.com/ocean-next/eNATL60/blob/master/figs/eNATL60_domain.png)
 *Figure 1: horizontal extent of the eNATL60 domain illustrated by a snapshot of surface current speed.*
-
+-->
 
 ## NEMO-eNATL60 model configuration 
  - domain : 
