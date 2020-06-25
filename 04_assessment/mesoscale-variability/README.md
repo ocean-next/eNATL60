@@ -24,6 +24,7 @@ Aurélie Albert ([Ocean Next](https://ocean-next.fr)), Julien LeSommer ([MEOM-IG
 ![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/mesoscale-variability/plots/std-mean-SSH-AVISO-eNATL60-BLBT02.png)<br>
 *Figure 1: Standard deviation of SSH over the 30/06/2009 - 30/10/2010 period, contours = mean SSH.*
 
+<br>
 
 
 The computation of temporal mean and standart deviation of eNATL60 hourly ssh converted to daily frequency for the whole domain requires 30 minutes of nearly 200 high-memory cores on the CINES OCCIGEN machine.
