@@ -150,8 +150,6 @@ Note: script `spectra_SSH_sat_vs_mod.py` also *savez* the two spectra (`S(k)`) i
 
 ## Results
 
-    << IN CONSTRUCTION ... >>
-
 ### Regions of interest
 
 ![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/along-track_spectra/plots/boxes_spectra_eNATL60.png)<br>
