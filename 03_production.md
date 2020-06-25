@@ -15,7 +15,7 @@ Short description of the preprocessing of input data. how the bathymetry was pre
 
 ## Actual run production 
 
-![plot](https://github.com/ocean-next/eNATL60/blob/master/04_assessment/along-track_spectra/plots/eNATL60_twin_exp.svg)
+![plot](https://github.com/ocean-next/eNATL60/blob/master/figs/eNATL60_twin_exp.svg)
 *Figure 1: Twin experiment design.*
 
 When was it run, how many cores, was is stable 
