@@ -4,6 +4,10 @@ This repository describes the twin model simulations performed in 2019 with [NEM
 
 To get an idea of what eNATL60 model data look like, you may have a look a the series of video animations  available on [Ocean-Next vimeo channel](https://vimeo.com/oceannext).
 
+![plot](https://github.com/ocean-next/eNATL60/blob/master/figs/eNATL60_domain.png)<br>
+*Figure 1: horizontal extent of the eNATL60 domain illustrated by a snapshot of surface current speed.*
+
+
 
 ## Why this repository ? 
 
