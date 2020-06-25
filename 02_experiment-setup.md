@@ -43,7 +43,7 @@ For the two experiments NEMO ocean and sea-ice namelists, as well as XIOS xml fi
 - eNATL60-BLBT02: experiment WITH explicit tidal motion
 
 ![plot](https://github.com/ocean-next/eNATL60/blob/master/figs/eNATL60_twin_exp.svg)
-*Figure 2: Twin experiment design.*
+*Figure 1: eNATL60 twin experiment design.*
 
 
 
