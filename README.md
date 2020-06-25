@@ -2,6 +2,8 @@
 
 This repository describes the twin model simulations performed in 2019 with [NEMO](https://www.nemo-ocean.eu) ocean model over the North Atlantic at 1/60° grid resolution by [Ocean-Next](https://www.ocean-next.fr/) and the [MEOM group](http://meom-group.github.io) at [IGE](http://www.ige-grenoble.fr) on MareNostrum supercomputer at [BSC](https://www.bsc.es) within a [PRACE](http://prace-ri.eu/) project.
 
+To get an idea of what eNATL60 model data look like, you may have a look a the series of video animations  available on [Ocean-Next vimeo channel](https://vimeo.com/oceannext).
+
 
 ## Why this repository ? 
 
@@ -27,9 +29,6 @@ Should you have any comment on the structure or on the content of this repositor
   - Results on the [assessment](./04_assessment/README.md) of the model with respect to observationnal datasets;
   - A list of on-going [studies and groups](./06_dissemination.md) using eNATL60 model data. 
 
-## Animations and outreach material 
-
-A series of video animations of eNATL60 model output is available on [Ocean-Next vimeo channel](https://vimeo.com/oceannext).
 
 ## Contributing to this repository 
 
