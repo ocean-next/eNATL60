@@ -15,7 +15,7 @@ We have adopted this approach rather than a more conventional scientific article
 
 More generally, we hope that this effort will help foster more collaborative and reproducible workflows in geoscientific modelling. 
 
-Should you have any comment on the structure or on the content of this repository, do not hesitate to open a GitHub [issue](./issues) and share your thoughts. 
+Should you have any comment on the structure or on the content of this repository, do not hesitate to open a GitHub [issue](https://github.com/ocean-next/eNATL60/issues) and share your thoughts. 
 
 ## Content of the repository 
 
@@ -33,7 +33,7 @@ A series of video animations of eNATL60 model output is available on [Ocean-Next
 
 ## Contributing to this repository 
 
-As described above, you may open [issues](./issues) for asking questions, for sharing your toughts or for proposing improvements to this repository.
+As described above, you may open [issues](https://github.com/ocean-next/eNATL60/issues) for asking questions, for sharing your toughts or for proposing improvements to this repository.
 
 As a users of eNATL60 model data, you may also contribute to the assessement of the simulation by fluxing back the results and the code of your comparisons of eNATL60 model data with observations. 
 
