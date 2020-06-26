@@ -23,6 +23,8 @@ eNATL60 is a basin-scale configuration of the NEMO (Nucleus for European Modelin
 *Figure 1: horizontal extent of the eNATL60 domain illustrated by a snapshot of surface current speed.*
 -->
 
+NEMO ocean and sea-ice namelists, as well as XIOS xml files can be found on the [`meom-configurations` GitHub page](https://github.com/meom-configurations). See the links below. 
+
 
 ## NEMO-eNATL60 twin model experiments
 The model configuration has been implemented and run in two different simulations as follows
@@ -44,7 +46,7 @@ The source code for the two experiments is hosted on the [`meom-configurations` 
  - [eNATL60-BLBT02 (experimemt WITH explicit tidal motion)](https://github.com/meom-configurations/eNATL60-BLBT02)
 
 
-For the two experiments NEMO ocean and sea-ice namelists, as well as XIOS xml files can be found on the [`meom-configurations` GitHub page](https://github.com/meom-configurations).
+For the two experiments NEMO ocean and sea-ice namelists, as well as XIOS xml files can be found at : 
 
  - [eNATL60-BLB002 (experimemt without explicit tidal motion)](https://github.com/meom-configurations/eNATL60-BLB002/tree/master/namelists_xml)
  - [eNATL60-BLBT02 (experimemt WITH explicit tidal motion)](https://github.com/meom-configurations/eNATL60-BLBT02/tree/master/namelists_xml)
