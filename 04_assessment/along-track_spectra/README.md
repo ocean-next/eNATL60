@@ -35,21 +35,22 @@ June 2020
 
 A netCDF file containing hourly (preferably) SSH on the rectangular region and the time window of your choice.
 
-**Requirements:**
+**Requirements for model netCDF files:**
+
 - record dimension `t` (or any other name) is `UNLIMITED` !
 - field of SSH is record-dependent and two-dimensional in space (ex: `SSH(x,y,t)`)
 - spatial coordinates (*i.e.* arrays of longitude and latitude) are NOT record-dependent and must be included in the file (ex: `lon(x,y)` & `lat(x,y)`)
 - for the field of SSH, land points are flagged by means of the`_FillValue` netCDF attribute 
 - time/calendar variable `time` (or any other name) must be included in the file  (ex: `time(t)`)
-- unit for time variable `time` must be of the kind: `seconds since <DATE>` (ex: `seconds since 1950-01-01 00:00:00`)
+- unit for time variable `time` must be of the kind: `seconds since <DATE>` or `days since <DATE>` (ex: `seconds since 1950-01-01 00:00:00`)
 - time/calendar variable must be consistent with the time window of the satellite data you plan to use!
 
 ### Satellite data:
 
-The script `download_alongtrack_data_cmems.sh` allows the user to directly download the relevant satellite data
+The script [`download_alongtrack_data_cmems.sh`](./scripts/download_alongtrack_data_cmems.sh) allows the user to directly download the relevant satellite data
 from the [CMEMS](https://resources.marine.copernicus.eu/?option=com_csw&task=results) data archive, provided the user has previously registered on the CMEMS website.
 
-Technically, this script downloads the netCDF data hosted by CMEMS for the requested period and convert it to a usable netCDF files:
+Technically, this script downloads the netCDF data hosted by CMEMS for the requested period and convert it to a usable netCDF file. Technically speaking:
 
 - make the record dimension 'UNLIMITED' as it should always be
 - unpack fields
@@ -73,16 +74,16 @@ Example \#2, download Sentinel data for JFM 2016:
 
 **Software dependencies for script `download_alongtrack_data_cmems.sh` :**
 - `python 2.7`
+
 - `motuclient` https://marine.copernicus.eu/faq/what-are-the-motu-and-python-requirements/
+
 - `nco` http://nco.sourceforge.net/
 
+  
 
+**Requirements  for along-track data netCDF files:**
 
-
-
-**Requirements:**
-
-(When not using the `download_alongtrack_data_cmems.sh` script to download and process the satellite data)
+If not using the `download_alongtrack_data_cmems.sh` script to download and process the satellite data, the user should ensure that:
 
 - record dimension `t` (or any other name) is `UNLIMITED` !
 - field of SSH/SLA is record-dependent and punctual in space (ex: `sla_unfiltered(t)`)
@@ -90,14 +91,14 @@ Example \#2, download Sentinel data for JFM 2016:
 - spatial coordinates are record-dependent and punctual in space (ex: `longitude(t)` & `latitude(t)`)
 - for the field of SSH/SLA, missing values must be flagged by means of the`_FillValue` netCDF attribute 
 - time/calendar variable `time` (or any other name) must be included in the file  (ex: `time(t)`)
-- unit for time variable `time` must be of the kind: `seconds since <DATE>` (ex: `seconds since 1950-01-01 00:00:00`)
+- unit for time variable `time` must be of the kind: `seconds since <DATE>` or `days since <DATE>`(ex: `seconds since 1950-01-01 00:00:00`)
 - time/calendar variable must be consistent with the time window of the model SSH data you plan to use!
+
 
 
 ### Space-time interpolation of model SSH along satellite ground track
 
-Program `interp_to_ground_track.x`, part of the collection of tools included
-in [SOSIE](https://github.com/brodeau/sosie) allows...
+Use the program `interp_to_ground_track.x`, part of the collection of tools included in [SOSIE](https://github.com/brodeau/sosie).
 
 In SOSIE, once the architecture-dependent `make.macro` file is configured according to your Fortran compiler and netCDF installation, `interp_to_ground_track.x` is compiled by simply running:
 
