@@ -32,7 +32,7 @@ The model configuration has been implemented and run in two different simulation
 - eNATL60-BLB002: experiment without explicit tidal motion
 - eNATL60-BLBT02: experiment WITH explicit tidal motion
 
-The spin-up and experiment strategy is presented in *figure 1* below. 
+The overall experiment strategy (inc. spin-up and output) is presented in *figure 1* below. 
 
 ![plot](https://github.com/ocean-next/eNATL60/blob/master/figs/eNATL60_twin_exp.svg)
 *Figure 1: eNATL60 twin experiment design.*
