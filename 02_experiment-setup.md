@@ -27,15 +27,15 @@ NEMO ocean and sea-ice namelists, as well as XIOS xml files can be found on the 
 
 
 ## NEMO-eNATL60 twin model experiments
-The model configuration has been implemented and run in two different simulations. The reference experiment eNATL60-BLB002 has been run WITHOUT explicit tidal forcing; the sensitivity experiment eNATL60-BLBT02 was run WITH explicit tidal forcing. The overall experiment strategy (inc. spin-up and output) is presented in *figure 1* below. 
+The model configuration has been implemented and run in two different simulations. The reference experiment eNATL60-BLB002 has been run WITHOUT explicit tidal forcing; the sensitivity experiment eNATL60-BLBT02 was run WITH explicit tidal forcing. The overall experiment strategy (simulated period, model spin-up and output strategy) is summarized below. 
 
 ![plot](https://github.com/ocean-next/eNATL60/blob/master/figs/eNATL60_twin_exp.svg)
-*Figure 1: eNATL60 twin experiment design.*
+*Figure 1: eNATL60 twin experiment strategy.*
 
 
 ## Sources codes : 
 
-The source code for the two experiments is hosted on the [`meom-configurations` GitHub page](https://github.com/meom-configurations).
+The source code for the two experiments is documented on [`meom-configurations` GitHub repos](https://github.com/meom-configurations).
 
  - [eNATL60-BLB002 experiment (WITHOUT explicit tidal motion)](https://github.com/meom-configurations/eNATL60-BLB002)
  - [eNATL60-BLBT02 experiment (WITH explicit tidal motion)](https://github.com/meom-configurations/eNATL60-BLBT02)
