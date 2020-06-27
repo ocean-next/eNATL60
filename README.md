@@ -45,3 +45,6 @@ In practice, please follow the template of one of the available [assessments](./
 ## Citing this repository
 
 As it grows over time, this GitHub repository will regularly be archived on [Zenodo](https://zenodo.org) and tagged with a digital object identifier (doi). Should you need to cite NEMO-eNATL60 simulations, please refer to the latest Zenodo doi.
+
+## License
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
