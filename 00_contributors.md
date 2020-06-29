@@ -12,15 +12,15 @@
  - Florent Lyard, LEGOS, Toulouse, France
  
 ### People involved in the production of the eNATL60 twin-experiment
- - Laurent Brodeau, Ocean Next
- - Jean-Marc Molines, MEOM-IGE
+ - Laurent Brodeau, Ocean Next, Grenoble, France
+ - Jean-Marc Molines, MEOM-IGE, Grenoble, France
  - David Vincente and support team, Barcelona Supercomputer Center, Spain
  - CINES (HPC center), Montpelier, France
- - Aurélie Albert, Ocean Next
+ - Aurélie Albert, Ocean Next, Grenoble, France
 
 ### People involved in the early assesment of the eNATL60 simulations
- - Josef Ansong
- - Aurélien Ponte
- - Xialong Iu
+ - Josef Ansong, University of Ghana, Legon, Ghana.
+ - Aurélien Ponte, IFREMER, Brest, France.
+ - Xialong Yu, IFREMER, Brest, France.
  
 
