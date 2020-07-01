@@ -9,3 +9,6 @@ Numerical ocean models, in conjunction with observation simulators, can be used 
 The twin eNATL60 simulations have been designed with this double objective of (i) providing virtual observations for preparing the exploitation of SWOT ocean data and (ii) providing material for studying cross-scale interactions in the open ocean at mid-latitudes. The model configuration has been defined in order to model as accurately as possible surface signature of oceanic motions of scales down to 15km in line with the expected effective resolution of SWOT ocean data. The choice of the model horizontal and vertical resolution derives from this objective. A particular emphasis has also been put on the representation of high frequency motions associated with internal tides as several studies suggest that these signals will be prominent in SWOT data at scale <100km. Finally, we have made the choice to formulate twin experiments in order to allow to quantify the impact of high frequency wave motions on larger scale turbulence. 
 
 
+
+## License
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
