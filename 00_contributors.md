@@ -3,7 +3,7 @@
 ### People involved in the design of eNATL60
  - Laurent Brodeau, Ocean Next, Grenoble, France
  - Jean-Marc Molines, MEOM-IGE, Grenoble, France
- - Julien LeSommer, MEOM-IGE, Grenoble, France
+ - Julien Le Sommer, MEOM-IGE, Grenoble, France
  - Bernard Barnier, Thierry Penduff, Emmanuel Cosme, MEOM-IGE, Grenoble, France
  - Aurélie Albert, Ocean Next, Grenoble, France
  - Brian Arbic, University of Michigan, MI, USA
