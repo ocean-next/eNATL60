@@ -19,7 +19,7 @@
  - Aurélie Albert, Ocean Next, Grenoble, France
 
 ### People involved in the early assesment of the eNATL60 simulations
- - Josef Ansong, University of Ghana, Legon, Ghana.
+ - Joseph Ansong, University of Ghana, Legon, Ghana.
  - Aurélien Ponte, IFREMER, Brest, France.
  - Xialong Yu, IFREMER, Brest, France.
  
