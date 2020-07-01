@@ -13,5 +13,5 @@
  
  - The pangeo-cloud (https://catalog.pangeo.io/browse/master/ocean/MEOM_NEMO/) hosts the surface fields converted to zarr format, computation can be done on https://ocean.pangeo.io/
  
- - You can ask for your personnalised dataset at aurelie.albert(at)ocean.next.fr
+ - You can ask for your personnalised dataset at aurelie.albert(at)ocean-next.fr
  
