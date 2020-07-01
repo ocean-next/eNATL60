@@ -15,7 +15,7 @@
  - Laurent Brodeau, Ocean Next, Grenoble, France
  - Jean-Marc Molines, MEOM-IGE, Grenoble, France
  - David Vincente and support team, Barcelona Supercomputer Center, Spain
- - CINES (HPC center), Montpelier, France
+ - CINES (HPC center), Montpellier, France
  - Aurélie Albert, Ocean Next, Grenoble, France
 
 ### People involved in the early assesment of the eNATL60 simulations
