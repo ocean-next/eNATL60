@@ -4,10 +4,10 @@ We here provide a list of individuals or groups with whom we have shared NEMO-eN
 
 ## Investigators : 
  - Aurélie Albert, Ocean Next
- - Julien LeSommer, MEOM-IGE
+ - Julien Le Sommer, MEOM-IGE
  - Adekunle Ajayi, MEOM-IGE
  - Sammy Metref, MEOM-IGE
- - Florian Guillou, MEOM-IGE
+ - Florian Le Guillou, MEOM-IGE
  - Johannes Karstensen, Arne Bendinger, GEOMAR
  - Maxime Ballarota, CLS
  - Erika Henell, MEOM-IGE
