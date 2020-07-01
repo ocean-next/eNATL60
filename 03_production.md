@@ -5,17 +5,18 @@ We provide here some information on how NEMO-eNATL60 simulations have been run.
 
 ## Computing resources 
 
-Short description of MArenostrum at BSC and of the context of PRACE call. also mention the support of CINES For storage.
+Short description of Marenostrum at BSC and of the context of PRACE call. Explain how CINES has helped with the storage
 
 
 ## Preprocessing
 
-Short description of the preprocessing of input data. how the bathymetry was prepared. haow the coastline was prepared. 
+Short description of the preprocessing of input data. how the bathymetry and coastline was prepared. 
 
 
 ## Actual run production 
 
-When was it run, how many cores, was is stable 
+When was it run, how many cores, overall stability. 
+
 
 ## IO and storage strategy 
 
