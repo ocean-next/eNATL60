@@ -14,7 +14,7 @@
 ### People involved in the production of the eNATL60 twin-experiment
  - Laurent Brodeau, Ocean Next, Grenoble, France
  - Jean-Marc Molines, MEOM-IGE, Grenoble, France
- - David Vincente and support team, Barcelona Supercomputer Center, Spain
+ - David Vicente and support team, Barcelona Supercomputing Center, Spain
  - CINES (HPC center), Montpellier, France
  - Aurélie Albert, Ocean Next, Grenoble, France
 
