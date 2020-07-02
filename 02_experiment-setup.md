@@ -19,7 +19,7 @@ eNATL60 is a basin-scale configuration of the NEMO (Nucleus for European Modelin
 - Model integration speed: 45 minutes for 1 model day
 
 
-![plot](https://github.com/ocean-next/eNATL60/blob/master/figs/deptht.svg)
+![plot](https://github.com/ocean-next/eNATL60/blob/master/figs/deptht.svg)<br>
 *Figure 1: Characteristics of the 300-level vertical `z-coordinate` grid of eNATL60. Depth and thickness of levels.*
 
 
@@ -29,7 +29,7 @@ NEMO ocean and sea-ice namelists, as well as XIOS xml files can be found on the 
 ## NEMO-eNATL60 twin model experiments
 The model configuration has been implemented and run in two different simulations. The reference experiment eNATL60-BLB002 has been run WITHOUT explicit tidal forcing; the sensitivity experiment eNATL60-BLBT02 was run WITH explicit tidal forcing. The overall experiment strategy (simulated period, model spin-up and output strategy) is summarized below. 
 
-![plot](https://github.com/ocean-next/eNATL60/blob/master/figs/eNATL60_twin_exp.svg)
+![plot](https://github.com/ocean-next/eNATL60/blob/master/figs/eNATL60_twin_exp.svg)<br>
 *Figure 2: eNATL60 twin experiment strategy.*
 
 
