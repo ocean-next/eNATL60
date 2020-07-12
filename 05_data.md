@@ -5,7 +5,7 @@
  
  - Surface fields in zarr format (ssh, ssu, ssv for both simulations) and SWOT virtual observations based on NEMO-eNATL60 are available to the french SWOT Science Team on HAL cluster at [CNES](https://cnes.fr).  
 
- - Surface fields in zarr format (ssh, ssu, ssv for both simulations) are also available on pangeo-cloud (https://catalog.pangeo.io/browse/master/ocean/MEOM_NEMO/);  registered members of pangeo can access the data for cloud-based analyses on https://ocean.pangeo.io/
+ - Surface fields in zarr format (ssh, ssu, ssv for both simulations) are also available on the cloud on [pangeo catalogue] (https://catalog.pangeo.io/browse/master/ocean/MEOM_NEMO/);  registered members of pangeo can access the data for cloud-based analyses on https://ocean.pangeo.io/
 
  - Some geographic or surface extractions are also available on the MEOM-IGE group cluster ige-meom-cal1 and can be downloaded through opendap upon request. The available regional extractions include: GULFSTREAM, ACORES, OSMOSIS, WESTMED, LABRADOR, GIBRALTAR
  
