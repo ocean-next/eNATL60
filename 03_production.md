@@ -6,7 +6,7 @@ UNDER CONTRUCTION
 
 ## Computing resources 
 
-Short description of Marenostrum at BSC and of the context of PRACE call. Explain how CINES has helped with the storage
+Short description of Marenostrum at BSC and of the context of PRACE 16th call. Project : ReSuMPTiOn (Revealing SubMesoscale Processes and Turbulence in the Ocean). Explain how CINES has helped with the storage.
 
 
 ## Preprocessing
