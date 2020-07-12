@@ -17,10 +17,10 @@ Short description of the preprocessing of input data. how the bathymetry and coa
 ## Actual run production 
 
 When was it run, how many cores, overall stability. 
+6.3 billion compute points, 8354 x 4729 x 300 levels, 40s timestep
+18000 cores. 50min per model day. 5d production segments. restart : 1.2Tb.
 
 
 ## IO and storage strategy 
 
-Explain that we wanted hourly output, explain that CINES has accepted to store the data.
-
-Explain how we fluxed the data from Barcelona to Montpellier.
+Explain that we wanted hourly output, explain that CINES has accepted to store the data. 5day segment : 7.8Tb. total twin : 1.5Pb. Explain how we fluxed the data from Barcelona to Montpellier.
