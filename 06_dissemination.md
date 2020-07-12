@@ -30,7 +30,7 @@ We here provide a list of individuals or groups with whom we have shared NEMO-eN
 
 ## Talks and conferences 
 
-- Brodeau et al. talk at OceanPredict´19 in Hallifax.
+- Brodeau et al. *Inclusion of realistic tidal motions in submesoscale-permitting simulations of the North Atlantic with NEMO – eNATL60*, OceanPredict´19, Halifax [slides](https://www.godae.org/~godae-data/OP19/3.5.2-20190507_Brodeau_OceanPredict19_Halifax.pdf)
 - Le Sommer et al. talk during SWOT Science Team Meeting in June 2019 in Bordeaux.
 - Ajayi et al. *On the Modulation of Kinetic Energy Transfer by Internal Tides.* presentation at Ocean Sciences Meeting 2020 in San Diego  [PS41A-04](https://agu.confex.com/agu/osm20/meetingapp.cgi/Paper/643730).
 - Gomez-Navarro et al *What will be the finest resolved scale of SWOT SSH data under different dynamical conditions ?* presentation at Ocean Sciences Meeting 2020 in San Diego [PS42B-04](https://agu.confex.com/agu/osm20/meetingapp.cgi/Paper/650536).
