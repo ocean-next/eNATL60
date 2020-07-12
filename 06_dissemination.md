@@ -30,6 +30,8 @@ We here provide a list of individuals or groups with whom we have shared NEMO-eN
 
 ## Talks and conferences 
 
+ - Brodeau, L. et al. *Inclusion of realistic tidal motions in submesoscale-permitting simulations of the North Atlantic with NEMO – eNATL60*. Annual DRAKKAR Workshop, Grenoble, France, Jan. 2019.
+ - Ajayi, A. et al. *Impact of Balanced and Unbalanced motions on the Seasonality of Energy Cascade in the North Atlantic*. CLIVAR workshop on Sources and Sinks Ocean Mesoscale Eddy, Florida State University, FL, USA, March, 2019.
 - Brodeau et al. *Inclusion of realistic tidal motions in submesoscale-permitting simulations of the North Atlantic with NEMO – eNATL60*, talk during OceanPredict´19, Halifax, Canada [slides](https://www.godae.org/~godae-data/OP19/3.5.2-20190507_Brodeau_OceanPredict19_Halifax.pdf)
 - Le Sommer et al. *Simulating energy exchanges down to 10km scale in the North Atlantic : results from eNATL60 simulations at IGE/Ocean Next*, talk during SWOT Science Team Meeting in June 2019 in Bordeaux, France.
 - Ajayi et al. *On the Modulation of Kinetic Energy Transfer by Internal Tides.* presentation at Ocean Sciences Meeting 2020 in San Diego  [PS41A-04](https://agu.confex.com/agu/osm20/meetingapp.cgi/Paper/643730).
