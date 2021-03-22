@@ -26,7 +26,7 @@ We here provide a list of individuals or groups with whom we have shared NEMO-eN
 ## Published references
 
 - Ajayi A. (2020). Cross-scale interactions and turbulent cascades in the North Atlantic Ocean. Université Grenoble Alpes, [PhD dissertation](https://tel.archives-ouvertes.fr/tel-02861906)
-
+- Ajayi, A., Le Sommer, J., Chassignet, E. P., Molines, J.‐M., Xu, X., Albert, A., & Dewar, W. (2021). Diagnosing cross‐scale kinetic energy exchanges from two submesoscale permitting ocean models.. Journal of Advances in Modeling Earth Systems, 13, e2019MS001923. https://doi.org/10.1029/2019MS001923
 
 ## Talks and conferences 
 
