@@ -7,8 +7,9 @@
 USER_CMEMS='xxxxxxx'
 PASS_CMEMS='xxxxxxx'
 
-# Where to save on your computer:
-DIR_SAVE="/data2/climate/SATELLITE"
+# Where to save on your computer (absolute path please!):
+#DIR_SAVE="/data2/climate/SATELLITE"
+DIR_SAVE="`pwd`"
 
 ############################ end of "safe" user configuration ###############################
 
@@ -32,7 +33,7 @@ cm2=`echo ${DT2} | cut -c1-2`
 cd1=`echo ${DT1} | cut -c3-4`
 cd2=`echo ${DT2} | cut -c3-4`
 
-h1="00:00:00" ; h2="23:59:59" ; # Begining and end of a day...
+ch1="00:00:00" ; ch2="23:59:59" ; # Begining and end of a day...
 
 
 case ${sat} in
@@ -53,12 +54,12 @@ esac
 
 VAR2KEEP="time,latitude,longitude,cycle,track,sla_unfiltered" ; # variables to keep from original downloaded files...
 
-f2d="${NAME}_${YEAR}${cm1}${d1}-${YEAR}${cm2}${d2}.zip"
+f2d="${NAME}_${YEAR}${cm1}${cd1}-${YEAR}${cm2}${cd2}.zip"
 
 dsave="${DIR_SAVE}/${NAME}" ; mkdir -p ${dsave}
 
 # Final file to create:
-FILE_SAT="${dsave}/${NAME}_${YEAR}${cm1}${d1}-${YEAR}${cm2}${d2}.nc"
+FILE_SAT="${dsave}/${NAME}_${YEAR}${cm1}${cd1}-${YEAR}${cm2}${cd2}.nc"
 
 
 ############################################
@@ -75,13 +76,18 @@ if [ ! -f ${FILE_SAT} ]; then
 
         # Need to download and unzip the archive
 
+        echo
+        echo "Launching download for ${YEAR}-${cm1}-${cd1} ${ch1} -- ${YEAR}-${cm2}-${cd2} ${ch2}"
+        echo
+        
         python -m motuclient --motu http://my.cmems-du.eu/motu-web/Motu \
                --service-id ${SID} \
                --product-id ${PID} \
-               --date-min "${YEAR}-${cm1}-${d1} ${h1}" --date-max "${YEAR}-${cm2}-${d2} ${h2}" \
+               --date-min "${YEAR}-${cm1}-${cd1} ${ch1}" --date-max "${YEAR}-${cm2}-${cd2} ${ch2}" \
                --out-dir ${dir_tmp} --out-name ${f2d} \
                --user ${USER_CMEMS} --pwd ${PASS_CMEMS}
-
+        echo
+        
         unzip -o ${f2d}
 
     fi
