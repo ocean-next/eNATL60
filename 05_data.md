@@ -9,7 +9,7 @@
 
  - Some geographic or surface extractions are also available on the MEOM-IGE group cluster ige-meom-cal1 and can be downloaded through opendap upon request. The available regional extractions include: GULFSTREAM, ACORES, OSMOSIS, WESTMED, LABRADOR, GIBRALTAR
  
- - You can ask for your personnalised dataset at aurelie.albert(at)ocean-next.fr
+ - You can ask for your personnalised dataset at aurelie.albert(at)univ-grenoble-alpes.fr
  
 
 ## License
